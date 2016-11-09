@@ -1,8 +1,91 @@
-html {
-  text-size-adjust: 100%;
+nav ul li {
+   display:inline-block;
+   align-content:center;
 }
 
-body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+nav ul li a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    width: 80px;
+    font-size: 0.8em;
+    font-weight: bold;
+    background:#808080;
+    color:#0a0303;
+    text-align:center;
+
+}
+
+.nav-bar {
+    background-color:#e6d5d5;
+    
+}
+
+
+
+
+
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    
+}
+
+.row.margin-tb {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.row.margin-lr {
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100% - 64px);
+}
+
+.with-gutters .col {
+    margin: 0 16px;
+}
+
+.with-gutter .col:first-of-type {
+    margin-left: 0;
+}
+
+.with-gutters .col:last-of-type {
+    margin-right: 0;
+}
+
+.col {
+
+}
+
+.col.padding {
+    padding: 16px;
+}
+
+.col-1-of-2,
+.col-2-of-4 {
+    width:50%;
+}
+
+
+.row.mark{
+    border:1px dashed #ccc;
+}
+
+.row.mark:hover {
+    border:1px dashed lightblue;
+    background-color:#eaf5f9;
+}
+
+
+.col.mark {
+    border: 1px dotted red;
+    background-color: #fcdfd4;
+}
+
+.col.mark:hover {
+    border: 1px dashed lightblue;
+    blackground-color: #d4eef9
 }
