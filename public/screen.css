@@ -86,7 +86,7 @@ nav ul li a {
 /*Colimns*/
 
 .col {
-
+    box-sizing: border-box;
 }
 
 .col.padding {
