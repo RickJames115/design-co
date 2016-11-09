@@ -57,10 +57,33 @@ nav ul li a {
 }
 
 
+.row.space-between {
+    justify-content:space-between;
+}
+.row.space-around {
+    justify-content: space-around;
+}
 
+.row.center {
+    justify-content: center;
+}
+.row.end {
+    justify-content: flex-end;
+}
 
-
-
+.row.vertical-start {
+    align-items: flex-start;
+}
+.row.vertical-end {
+    align-items: flex-end;
+}
+.row.vertical-center {
+    align-items: center;
+}
+.row.vertical-stretch {
+    align-items:stretch;
+}
+/*Colimns*/
 
 .col {
 
